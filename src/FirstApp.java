@@ -10,7 +10,7 @@ public class FirstApp {
         GraphicsLCD g = BrickFinder.getDefault().getGraphicsLCD();
         
         g.drawString("Hello World", 0, 0, GraphicsLCD.VCENTER |
-                GraphicsLCD.LEFT);
+                GraphicsLCD.LEFT);//n'importe quoi 
         
         Delay.msDelay(5000);
     }
